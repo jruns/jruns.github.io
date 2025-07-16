@@ -59,9 +59,6 @@ export default function Home() {
                         <li>Meal delivery service pickup locations are displayed using the TomTom Maps SDK which is a low-cost alternative to the Google Maps API. (<a href="https://www.vegmealdelivery.com/service/natures-plate/" target="_blank" className="text-buttons underline">example</a>)</li>
                         <li>Custom WordPress theme that modifies a custom post type’s New/Edit form.</li>
                     </ul>
-                    <div className="flex pt-4">
-                        <a href="https://www.vegmealdelivery.com/" className="bg-buttons text-white font-semibold tracking-widest rounded-sm ring-2 ring-blue-100 py-1 px-4 w-full sm:w-auto text-center sm:text-left" target="_blank" title="VegMealDelivery Live Site">View Live Site</a>
-                    </div>
                 </div>
                 <div className="h-36 sm:h-auto sm:w-2/5 mb-4 sm:mb-0 bg-no-repeat bg-cover" style={{backgroundImage: "url('./images/portfolio_vegmealdelivery.png')"}} aria-hidden="true"></div>
             </div>
