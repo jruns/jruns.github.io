@@ -27,3 +27,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## To Deploy
+
+Merge changes to the `main` branch and GitHub Actions will automatically deploy the changes to the live site.

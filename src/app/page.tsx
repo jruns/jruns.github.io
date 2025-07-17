@@ -30,13 +30,13 @@ export default function Home() {
             <p className="mt-4 sm:mt-2 font-poppins text-lg font-semibold">Like what you&apos;ve read so far? <a href="mailto:jason.schramm@gmail.com" className="text-buttons underline" target="_blank">Email Me</a></p>
         </div>
         <div className="mt-7">
-            <h1 className="text-3xl font-semibold tracking-wider font-poppins border-b-2 border-gray-400">Side Projects</h1>
+            <h1 className="text-3xl font-semibold tracking-wider font-poppins border-b-2 border-gray-400">Projects</h1>
         </div>
         <div className="mt-4 flex flex-col space-y-4 font-poppins">
-            <div className="flex flex-col-reverse sm:flex-row border-2 border-black/10 rounded-lg p-2 hover:border-black/50 sm:space-x-4">
+            <div className="flex flex-col-reverse sm:flex-row border-2 border-neutral-200 dark:border-neutral-600 rounded-lg hover:border-neutral-400 dark:hover:border-neutral-400 p-2 sm:space-x-4">
                 <div className="sm:w-3/5">
                     <h2 className="text-xl font-semibold">VegEvents</h2>
-                    <p className="text-sm font-semibold text-gray-500 mt-0.5 mb-3">Logo Design, Website Design, Website Development, Speed Optimization, WordPress, Bootstrap 3, Google Maps API</p>
+                    <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 mt-0.5 mb-3">Logo Design, Website Design, Website Development, Speed Optimization, WordPress, Bootstrap 3, Google Maps API</p>
                     <h3 className="text-base font-semibold mb-1">Unique features:</h3>
                     <ul className="list-disc list-outside pl-4.5 text-sm">
                         <li>Weekly email newsletter that sent a custom list of events to 6,000+ subscribers based on their latitude/longitude and other newsletter settings.</li>
@@ -48,24 +48,24 @@ export default function Home() {
                 </div>
                 <div className="h-36 sm:h-auto sm:w-2/5 mb-4 sm:mb-0 bg-no-repeat bg-cover" style={{backgroundImage: "url('./images/portfolio_vegevents.png')"}} aria-hidden="true"></div>
             </div>
-            <div className="flex flex-col-reverse sm:flex-row border-2 border-black/10 rounded-lg p-2 hover:border-black/50 sm:space-x-4">
+            <div className="flex flex-col-reverse sm:flex-row border-2 border-neutral-200 dark:border-neutral-600 rounded-lg hover:border-neutral-400 dark:hover:border-neutral-400 p-2 sm:space-x-4">
                 <div className="sm:w-3/5">
                     <h2 className="text-xl font-semibold">VegMealDelivery</h2>
-                    <p className="text-sm font-semibold text-gray-500 mt-0.5 mb-3">Logo Design, Website Design, Website Development, WordPress, Bootstrap 4, Google Maps API, TomTom Maps SDK</p>
+                    <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 mt-0.5 mb-3">Logo Design, Website Design, Website Development, WordPress, Bootstrap 4, Google Maps API, TomTom Maps SDK</p>
                     <h3 className="text-base font-semibold mb-1">Unique features:</h3>
                     <ul className="list-disc list-outside pl-4.5 text-sm">
                         <li>Heavily customized FacetWP WordPress plugin implementation for dynamic search filtering.</li>
                         <li>Custom FacetWP Facet type for searching for meal delivery services that deliver to a visitor&apos;s address or have a pickup location near them. Each meal delivery service CPT is connected to one or more delivery locations (Taxonomy terms). Locations can be a street address, city, state, or country.</li>
-                        <li>Meal delivery service pickup locations are displayed using the TomTom Maps SDK which is a low-cost alternative to the Google Maps API. (<a href="https://www.vegmealdelivery.com/service/natures-plate/" target="_blank" className="text-buttons underline">example</a>)</li>
+                        <li>Meal delivery service pickup locations are displayed using the TomTom Maps SDK which is a low-cost alternative to the Google Maps API.</li>
                         <li>Custom WordPress theme that modifies a custom post type’s New/Edit form.</li>
                     </ul>
                 </div>
                 <div className="h-36 sm:h-auto sm:w-2/5 mb-4 sm:mb-0 bg-no-repeat bg-cover" style={{backgroundImage: "url('./images/portfolio_vegmealdelivery.png')"}} aria-hidden="true"></div>
             </div>
-            <div className="flex flex-col-reverse sm:flex-row border-2 border-black/10 rounded-lg p-2 hover:border-black/50 sm:space-x-4">
+            <div className="flex flex-col-reverse sm:flex-row border-2 border-neutral-200 dark:border-neutral-600 rounded-lg hover:border-neutral-400 dark:hover:border-neutral-400 p-2 sm:space-x-4">
                 <div className="sm:w-3/5">
                     <h2 className="text-xl font-semibold">VegMovies</h2>
-                    <p className="text-sm font-semibold text-gray-500 mt-0.5 mb-3">Logo Design, Website Design, Website Development, WordPress, Bootstrap 4, iTunes Search API, OMDb API</p>
+                    <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 mt-0.5 mb-3">Logo Design, Website Design, Website Development, WordPress, Bootstrap 4, iTunes Search API, OMDb API</p>
                     <h3 className="text-base font-semibold mb-1">Unique features:</h3>
                     <ul className="list-disc list-outside pl-4.5 text-sm">
                         <li>Customized FacetWP WordPress plugin implementation for dynamic search filtering.</li>
@@ -84,10 +84,10 @@ export default function Home() {
                 </div>
                 <div className="h-36 sm:h-auto sm:w-2/5 mb-4 sm:mb-0 bg-no-repeat bg-cover" style={{backgroundImage: "url('./images/portfolio_vegmovies.png')"}} aria-hidden="true"></div>
             </div>
-            <div className="flex flex-col-reverse sm:flex-row border-2 border-black/10 rounded-lg p-2 hover:border-black/50 sm:space-x-4">
+            <div className="flex flex-col-reverse sm:flex-row border-2 border-neutral-200 dark:border-neutral-600 rounded-lg hover:border-neutral-400 dark:hover:border-neutral-400 p-2 sm:space-x-4">
                 <div className="sm:w-3/5">
                     <h2 className="text-xl font-semibold">Plant Based Information (formerly VegResources)</h2>
-                    <p className="text-sm font-semibold text-gray-500 mt-0.5 mb-3">Logo Design, Website Design, Website Development, WordPress, Bootstrap 4, iTunes REST API</p>
+                    <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 mt-0.5 mb-3">Logo Design, Website Design, Website Development, WordPress, Bootstrap 4, iTunes REST API</p>
                     <h3 className="text-base font-semibold mb-1">Unique features:</h3>
                     <ul className="list-disc list-outside pl-4.5 text-sm">
                         <li>Custom code that modifies a custom post type’s New and Edit form to:
