@@ -30,7 +30,7 @@ export default function Home() {
             <p className="mt-4 sm:mt-2 font-poppins text-lg font-semibold">Like what you&apos;ve read so far? <a href="mailto:jason.schramm@gmail.com" className="text-buttons underline" target="_blank">Email Me</a></p>
         </div>
         <div className="mt-7">
-            <h1 className="text-3xl font-semibold tracking-wider font-poppins border-b-2 border-gray-400">Side Projects</h1>
+            <h1 className="text-3xl font-semibold tracking-wider font-poppins border-b-2 border-gray-400">Projects</h1>
         </div>
         <div className="mt-4 flex flex-col space-y-4 font-poppins">
             <div className="flex flex-col-reverse sm:flex-row border-2 border-black/10 rounded-lg p-2 hover:border-black/50 sm:space-x-4">
