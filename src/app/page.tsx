@@ -56,7 +56,7 @@ export default function Home() {
                     <ul className="list-disc list-outside pl-4.5 text-sm">
                         <li>Heavily customized FacetWP WordPress plugin implementation for dynamic search filtering.</li>
                         <li>Custom FacetWP Facet type for searching for meal delivery services that deliver to a visitor&apos;s address or have a pickup location near them. Each meal delivery service CPT is connected to one or more delivery locations (Taxonomy terms). Locations can be a street address, city, state, or country.</li>
-                        <li>Meal delivery service pickup locations are displayed using the TomTom Maps SDK which is a low-cost alternative to the Google Maps API. (<a href="https://www.vegmealdelivery.com/service/natures-plate/" target="_blank" className="text-buttons underline">example</a>)</li>
+                        <li>Meal delivery service pickup locations are displayed using the TomTom Maps SDK which is a low-cost alternative to the Google Maps API.</li>
                         <li>Custom WordPress theme that modifies a custom post type’s New/Edit form.</li>
                     </ul>
                 </div>
