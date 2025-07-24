@@ -29,7 +29,9 @@ export default function RootLayout({
       <body
         className={`${poppinsSans.variable} ${londrinaSolid.variable} antialiased mt-4 mb-6`}
       >
-        {children}
+        <div className="md:container flex flex-col mx-4 sm:mx-8 md:mx-auto">
+          {children}
+        </div>
       </body>
     </html>
   );
