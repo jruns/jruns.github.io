@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col">
             <div className="flex text-xl font-semibold tracking-wider font-poppins border-b-2 border-gray-400">
               <div className="tab activeTab">About Me</div>
-              <Link href="/projects" className="tab inactiveTab ml-4">Projects</Link>
+              <Link href="/projects" className="tab inactiveTab ml-4" scroll={false}>Projects</Link>
             </div>
             <div className="mt-4">
               <p className="font-poppins text-base">I am focused on finding work at an organization making positive changes in the world in the social or environmental impact space. I have been working as a full-time Senior Web Developer on a team maintaining and developing over 40 large-scale WordPress sites, while also creating and managing my own websites on the side.</p>

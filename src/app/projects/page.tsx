@@ -10,7 +10,7 @@ export default function Projects() {
         <Header />
         <div className="flex flex-col">
             <div className="flex text-xl font-semibold tracking-wider font-poppins border-b-2 border-gray-400">
-              <Link href="/" className="tab inactiveTab">About Me</Link>
+              <Link href="/" className="tab inactiveTab" scroll={false}>About Me</Link>
               <div className="tab activeTab ml-4">Projects</div>
             </div>
             <div className="mt-4 flex flex-col space-y-4 font-poppins">
