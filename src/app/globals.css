@@ -55,7 +55,7 @@ a.text-buttons:hover {
 }
 
 .activeTab {
-  @apply border-2 border-gray-400 border-b-white mb-[-2px];
+  @apply border-2 border-gray-400 border-b-[var(--background)] mb-[-2px];
 }
 
 .inactiveTab {
