@@ -1,16 +1,10 @@
 import type { Metadata } from "next";
-import { Poppins, Londrina_Solid } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const londrinaSolid = Londrina_Solid({
-  variable: "--font-londrina-solid",
-  weight: "400",
-  subsets: ["latin"],
-});
-
-const poppinsSans = Poppins({
-  variable: "--font-poppins-sans",
-  weight: ["400", "600"],
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  weight: ["400", "500"],
   subsets: ["latin"],
 });
 
@@ -27,9 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppinsSans.variable} ${londrinaSolid.variable} antialiased mt-4 mb-6`}
+        className={`${montserrat.variable} antialiased mt-4 mb-6`}
       >
-        <div className="md:container flex flex-col mx-4 sm:mx-8 md:mx-auto">
+        <div id="myapp" className="md:container flex flex-col mx-4 sm:mx-8 md:mx-auto">
           {children}
         </div>
       </body>
