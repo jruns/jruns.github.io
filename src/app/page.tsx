@@ -2,9 +2,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const externalLinks = [
+	{ href: 'https://www.linkedin.com/in/j-schramm/', label: 'LinkedIn' },
 	{ href: '/assets/JasonSchramm_Resume.pdf', label: 'Resume' },
 	{ href: 'https://github.com/jruns', label: 'GitHub' },
-	{ href: 'https://www.linkedin.com/in/j-schramm/', label: 'LinkedIn' },
 	{ href: 'mailto:jason.schramm@gmail.com', label: 'Email Me' }
 ];
 
