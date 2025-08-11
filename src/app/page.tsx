@@ -2,9 +2,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const externalLinks = [
+	{ href: 'https://www.linkedin.com/in/j-schramm/', label: 'LinkedIn' },
 	{ href: '/assets/JasonSchramm_Resume.pdf', label: 'Resume' },
 	{ href: 'https://github.com/jruns', label: 'GitHub' },
-	{ href: 'https://www.linkedin.com/in/j-schramm/', label: 'LinkedIn' },
 	{ href: 'mailto:jason.schramm@gmail.com', label: 'Email Me' }
 ];
 
@@ -14,7 +14,7 @@ export default function Home() {
         <Header />
         <div className="flex flex-col">
             <div className="mt-4">
-              <p className="font-montserrat text-base tracking-wide">I am a <span className="highlights">Senior Full Stack Web Developer</span> looking for opportunities in the <span className="highlights">social or environmental impact</span> space at an organization <span className="highlights">making positive changes</span> in the world.</p>
+              <p className="font-montserrat text-base tracking-wide">I am a <span className="highlights">Senior Full Stack Web Developer</span> interested in <span className="highlights">working with organizations</span> making a positive <span className="highlights">social or environmental impact</span>.</p>
             </div>
             <div className="flex flex-row flex-wrap gap-x-4 gap-y-5 mt-8 mb-9">
               { externalLinks.map( (link, i) => (
