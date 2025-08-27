@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Connect with Jason",
-  description: "Connect with a Senior Full Stack Web Developer interested in working with organizations making a positive social or environmental impact.",
+  description: "Connect with a Senior WordPress Developer interested in working with organizations making a positive social or environmental impact.",
 };
 
 export default function RootLayout({
